@@ -16,7 +16,10 @@
       height: 100%;
       display: flex;
       align-items: center;
-      
+
+      @media only screen and (max-width: $bp-small)  {
+        padding: 0 .5rem;
+      }
     }
   }
 
@@ -46,8 +49,8 @@
     align-items: center;
   }
   &__avatar {
-    height: 2.75rem;
-    width: 2.75rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50px;
     margin-right: 1rem;
   }
@@ -85,6 +88,10 @@
       opacity: 1;
       display: block;
       visibility: visible;
+    }
+
+    &:hover  {
+      fill: white
     }
   }
 

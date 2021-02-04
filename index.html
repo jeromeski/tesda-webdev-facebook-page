@@ -6,7 +6,7 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <div class="container">
@@ -53,7 +53,7 @@
                 <svg class="user-nav__icon">
                   <use xlink:href="img/sprites.svg#icon-bell"></use>
                 </svg>
-                <span class="user-nav__notification">27</span>
+                <span class="user-nav__notification">2</span>
               </li>
               <li class="user-nav__item">
                 <svg class="user-nav__icon">
@@ -135,9 +135,149 @@
       </header>
       <main class="content">
         <div class="col-left">
-          <div class="more"></div>
+          <div class="user-area"> 
+            <img class="user-area__avatar " src="https://randomuser.me/api/portraits/lego/5.jpg "/> 
+            <span>Jeromeski Gee</span> 
+          </div>
+          <div class="features ">
+            <ul class="features__list ">
+              <li class="features__item-active"> 
+                <div>
+                  <img class="features__icon" src="./img/newsfeed.png" alt="news feed icon"/> 
+                  <a href="">News Feed</a>
+                </div>
+                <a href="">
+                  <svg class="features__icon3">
+                    <use xlink:href="img/sprites.svg#icon-dots-three-horizontal"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="features__item "> 
+                <img class="features__icon" src="./img/messenger-2.png "alt="messenger icon "/> 
+                <a href=" "><span>Messenger</span></a> 
+              <li>
+              <li class="features__item">
+                <img class="features__icon" src="./img/watch.png " alt="watch icon "/> 
+                <a href=""><span>Watch</span></a> </li>
+              <li class="features__item "> 
+                <img class="features__icon" src="./img/marketplace.png "alt="marketplace icon "/> 
+                <a href=""><span>MarketPlace</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="shortcuts ">
+            <p class="mb-1 ">Shortcuts</p>
+            <ul class="shortcuts__list ">
+              <li class="shortcuts__item "> 
+                <img class='shortcuts__icon' src="./img/groups.png "alt="groups icon"/> 
+                <a href="">
+                  <span>React</span>
+                </a>
+              </li>
+              <li class="shortcuts__item">
+                <img class='shortcuts__icon' src="./img/groups.png " alt="groups icon "/>
+                <a href="">
+                  <span>Stackoverflow</span>
+                </a>
+              </li>
+              <li class="shortcuts__item ">
+                <img class='shortcuts__icon' src="./img/groups.png "alt="groups icon "/>
+                <a href=" "><span>Github</span></a>
+              </li>
+              <li class="shortcuts__item"> 
+                <img class='shortcuts__icon' src="./img/groups.png " alt="groups icon "/> 
+                <a href="">
+                  <span>MongoDB</span>
+                </a>
+              </li>
+              <li class="shortcuts__item ">
+                <img class='shortcuts__icon' src="./img/groups.png "alt="groups icon "/>
+                <a href=" ">
+                  <span>Material UI</span>
+                </a>
+              <li>
+              <li class="shortcuts__item">                
+                  <svg class="shortcuts__icon2">
+                    <use xlink:href="img/sprites.svg#icon-triangle-down"></use>
+                  </svg>
+                  <a href=" ">See More...</a>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="explore ">
+            <p class="mb-1 ">Explore</p>
+            <ul class="explore__list ">
+              <li class="explore__item ">
+                <img class="explore__icon" src="./img/poke.png " alt="pokeicon "/>
+                <a href="">Poke</a>
+              </li>
+              <li class="explore__item ">
+                <img class="explore__icon" src="./img/pages.png " alt="pagesicon "/>
+                <a href=" ">Pages</a>
+              </li>
+              <li class="explore__item ">
+                <img class="explore__icon" src="./img/events.png "alt="events icon "/> 
+                <a href=" ">Events</a>
+              </li>
+              <li class="explore__item">
+                <img class="explore__icon" src="./img/friends-list.png " alt="friends list"/> 
+                <a href="">Friends List</a>
+              </li>
+              <li class="explore__item ">
+                <svg class="explore__icon2">
+                  <use xlink:href="img/sprites.svg#icon-triangle-down"></use>
+                </svg>
+                <a href=" ">See More...</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-mid">col mid</div>
+        <div class="col-mid">
+          <div class="posts">
+            <div class="post__create">
+              <div class="post__create-heading "> <p>Create Post</p></div>
+              <div class="post__create-user">
+                <img class="post__avatar " src="https://randomuser.me/api/portraits/lego/5.jpg "/>
+                <input type="text " placeholder="What's on your mind, Jeromeski?"></input>
+              </div>
+              <div class="hr2"></div>
+              <div class="post__react-list">
+                <div class="post__react-item"> 
+                  <button class="post__button" >
+                    <svg class="post__icon">
+                      <use xlink:href="img/sprites.svg#icon-image"></use>
+                    </svg>
+                    <span>Photo/Video<span> 
+                  </button>
+                </div>
+                <div class="post__react-item">
+                  <button class="post__button">
+                    <svg class="post__icon">
+                      <use xlink:href="img/sprites.svg#icon-person_add_alt_1"></use>
+                    </svg>
+                    <span>Tag Friends</span>
+                  </button>
+                </div>
+                <div class="post__react-item"> 
+                  <button class="post__button"> 
+                    <svg class="post__icon">
+                      <use class="post__icon" xlink:href="img/sprites.svg#icon-wink2"></use>
+                    </svg>
+                    <span>Feeling/Activ..</span> 
+                  </button>
+                </div>
+                <div class="post__react-item">
+                  <button class="post__button">
+                    <svg class="post__icon">
+                      <use xlink:href="img/sprites.svg#icon-dots-three-horizontal"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-right">col right</div>
       </main>
     </div>

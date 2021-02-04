@@ -1,0 +1,59 @@
+/* FEATURES 
+========================*/
+
+.features {
+  &__list {
+
+    & > * {
+      margin-bottom: .9rem;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+
+    & a {
+      font-size: 1.65rem;
+      font-weight: 500;
+      color: $color-primary-blue;
+    }
+  }
+  &__icon {
+    height: 2.75rem;
+    width: 2.75rem;
+    margin-right: .75rem;
+    margin-left: .5rem;
+  }
+
+  &__item-active div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-active div a {
+    font-size: 1.5rem;
+      font-weight: 600;
+      color: $color-primary-blue;
+  }
+
+  &__item-active a {
+    margin-right: 1rem;
+    margin-top: 3px;
+    margin-left: auto;
+  }
+
+  &__icon3 {
+    height: 2rem;
+    width: 2rem; 
+    fill: $color-primary-blue;
+  }
+
+  &__item-active {
+    display: flex;
+    align-items: center;
+    padding: .5rem 0;
+    margin-right: 1.5rem;
+    border-radius: 2px;
+    background-color: darken($color-primary-white-light, .15%);
+  }
+}

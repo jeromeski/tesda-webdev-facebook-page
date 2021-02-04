@@ -1,0 +1,40 @@
+/* SHORTCUTS
+========================*/
+
+.shortcuts {
+  & p {
+    color: $color-primary-blue;
+    font-weight: bold;
+    font-size: 1.60rem;
+  }
+  &__list {
+
+    & > * {
+      margin-bottom: .75rem;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+
+    & a {
+      font-size: 1.65rem;
+      font-weight: 500;
+      color: $color-primary-blue;
+    }
+  }
+  &__icon {
+    height: 2.75rem;
+    width: 2.75rem;
+    margin-right: .75rem;
+    margin-left: .5rem;
+  }
+
+  &__icon2 {
+    height: 2.25rem;
+    width: 2.25rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    fill: $color-primary-blue;
+  }
+}

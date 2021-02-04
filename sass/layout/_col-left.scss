@@ -2,6 +2,10 @@
 ========================*/
 
 .col-left {
-  background-color: orange;
-  flex: 0 0 20%
+  flex: 0 0 20%;
+  margin-top: 2rem;
+
+  & > * {
+    margin-bottom: 2rem;
+  }
 }

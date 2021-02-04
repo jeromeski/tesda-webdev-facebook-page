@@ -4,3 +4,7 @@
 .hr {
   border-bottom: 2px solid rgba($color-grey-light-1, .25);
 }
+
+.hr2{
+  border-bottom: 2px solid lighten($color-primary-white, 3%);
+}
