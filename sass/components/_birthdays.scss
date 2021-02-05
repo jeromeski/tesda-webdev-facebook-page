@@ -106,6 +106,10 @@
   font-size: 1.5rem;
   padding: 0 1.75rem;
   line-height: 1.5;
+
+  & > * {
+    cursor: pointer;
+  }
   & span {
     color: $color-grey-dark-2;
   }

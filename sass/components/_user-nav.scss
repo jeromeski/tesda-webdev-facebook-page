@@ -54,9 +54,7 @@
     border-radius: 50px;
     margin-right: 1rem;
   }
-  &__name {
-    
-  }
+
   &__icon {
     height: 2.5rem;
     width: 2.5rem;
@@ -154,15 +152,6 @@
       font-weight: 300;
     }
   }
-
-  &__dropdown-notification {
-
-  }
-
-  &__dropdown-text {
-
-  }
-
   &__dropdown-terms {
     padding: 2rem 2rem;
     background-color: darken($color-primary-white, 3%);

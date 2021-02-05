@@ -2,14 +2,6 @@
 ========================*/
 
 .status {
-  // box-shadow: $shadow;
-  &__container {
-    
-  }
-
-  &__list {
-
-  }
 
   &__item {
     background-color: white;
@@ -97,10 +89,6 @@
 
   &__reactions-list {
     display: flex;
-  }
-
-  &__reactions-item {
-
   }
 
   &__reactions-people {

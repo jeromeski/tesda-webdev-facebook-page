@@ -622,6 +622,8 @@ p {
         justify-content: space-around;
     padding: 0 1rem !important;
     padding-bottom: 2rem !important; }
+    .stories__list > * {
+      cursor: pointer; }
   .stories__item-container {
     position: relative; }
   .stories__photo-1 {
@@ -896,6 +898,8 @@ p {
   font-size: 1.5rem;
   padding: 0 1.75rem;
   line-height: 1.5; }
+  .terms > * {
+    cursor: pointer; }
   .terms span {
     color: #434343; }
 

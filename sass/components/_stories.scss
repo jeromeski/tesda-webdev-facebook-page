@@ -32,10 +32,10 @@
     justify-content: space-around;
     padding: 0 1rem !important;
     padding-bottom: 2rem !important;
-  }
 
-  &__item {
-    
+    & > * {
+      cursor: pointer;
+    }
   }
 
   &__item-container {
