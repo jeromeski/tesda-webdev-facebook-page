@@ -817,8 +817,11 @@ p {
     width: 2.75rem;
     margin-right: 1rem; }
   .birthdays__friends > *:nth-child(1) {
+    font-size: 1.45rem;
     color: #4c66a4;
     font-weight: 600; }
+  .birthdays__friends > *:nth-child(2) {
+    font-size: 1.45rem; }
 
 .pages {
   padding: 1rem 1.5rem;
@@ -837,7 +840,8 @@ p {
           justify-content: space-between; }
   .pages > *:nth-child(1) {
     color: #434343;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 1.45rem; }
   .pages > *:nth-child(2) {
     margin-right: auto; }
   .pages__icon {
@@ -863,12 +867,14 @@ p {
         -ms-flex-align: center;
             align-items: center; }
   .language__languages {
-    line-height: 1.25; }
+    line-height: 1.40; }
     .language__languages > *:nth-child(1) {
       color: #999999;
-      font-weight: 600; }
+      font-weight: 600;
+      font-size: 1.45rem; }
     .language__languages > *:not(:first-child) {
-      color: #4c66a4; }
+      color: #4c66a4;
+      font-size: 1.45rem; }
   .language__button {
     padding: 0.5rem 1rem;
     -ms-flex-item-align: center;
@@ -888,7 +894,8 @@ p {
 
 .terms {
   font-size: 1.5rem;
-  padding: 0 1.75rem; }
+  padding: 0 1.75rem;
+  line-height: 1.5; }
   .terms span {
     color: #434343; }
 

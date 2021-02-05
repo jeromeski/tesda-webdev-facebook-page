@@ -21,8 +21,12 @@
 
   &__friends {
     & > *:nth-child(1) {
+      font-size: 1.45rem;
       color: $color-primary-blue;
       font-weight: 600;
+    }
+    & > *:nth-child(2) {
+      font-size: 1.45rem;
     }
   }
   
@@ -40,6 +44,7 @@
   & > *:nth-child(1) {
     color: $color-grey-dark-2;
     font-weight: 600;
+    font-size: 1.45rem;
   }
 
   & > *:nth-child(2) {
@@ -67,15 +72,17 @@
   }
 
   &__languages {
-    line-height: 1.25;
+    line-height: 1.40;
 
     & > *:nth-child(1){
       color: $color-grey-light-2;
       font-weight: 600;
+      font-size: 1.45rem;
     }
 
     & > *:not(:first-child) {
       color: $color-primary-blue;
+      font-size: 1.45rem;
     }
   }
 
@@ -98,6 +105,7 @@
 .terms {
   font-size: 1.5rem;
   padding: 0 1.75rem;
+  line-height: 1.5;
   & span {
     color: $color-grey-dark-2;
   }
