@@ -2,9 +2,9 @@
 ========================*/
 
 .status {
-  box-shadow: $shadow;
+  // box-shadow: $shadow;
   &__container {
-
+    
   }
 
   &__list {
@@ -15,6 +15,7 @@
     background-color: white;
     margin-top: 2rem;
     border-radius: 5px;
+    box-shadow: $shadow;
   }
 
   &__author-header {

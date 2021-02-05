@@ -25,23 +25,36 @@
   }
 
   &__comment {
-
+    padding: 0 0 2rem 0;
   }
 
   &__comment-list {
-
+    
   }
 
   &__comment-item {
-
+    display: flex;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    align-items: end;
   }
 
   &__comment-avatar {
     height: 4rem;
     width: 4rem;
+    margin-right: 1rem;
+    border-radius: 50px;
   }
 
   &__comment-message {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    padding: .5rem 1.5rem;
+    background-color: $color-primary-white;
+    border-radius: 50px;
 
+    & a {
+      color: $color-primary-blue;
+      font-weight: bold;
+    }
   }
 }
