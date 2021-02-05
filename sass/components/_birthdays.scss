@@ -1,0 +1,51 @@
+/* BIRTHDAYS
+========================*/
+
+.birthdays {
+  height: 4.5rem;
+  background-color: white;
+  box-shadow: $shadow;
+  border-radius: 5px;
+
+  &__container {
+    display: flex;
+    // align-items: center;
+    
+  }
+
+  &__icon {
+    height: 2.75rem;
+    width: 2.75rem;
+  }
+
+  &__friends {
+
+  }
+  
+}
+
+.pages {
+  height: 4.5rem;
+  background-color: white;
+  box-shadow: $shadow;
+  border-radius: 5px;
+  &__wrapper {
+
+  }
+}
+
+.language {
+  background-color: white;
+  box-shadow: $shadow;
+  border-radius: 5px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__icon {
+    height: 2.75rem;
+    width: 2.75rem;
+  }
+}
