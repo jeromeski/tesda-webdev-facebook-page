@@ -1,0 +1,114 @@
+/* STATUS
+========================*/
+
+.status {
+  box-shadow: $shadow;
+  &__container {
+
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    background-color: white;
+    margin-top: 2rem;
+    border-radius: 5px;
+  }
+
+  &__author-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $line2;
+    padding: 1rem 1.5rem;
+  }
+
+  &__author-avatar {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50px;
+  }
+
+  &__author-created {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+
+  &__author-created-by {
+    font-weight: 500;
+    line-height: 1;
+    color: $color-grey-dark-2;
+
+  }
+
+  &__author-created-at {
+    display: flex;
+    align-items: center;
+  }
+
+  &__author-time {
+    // line-height: .5;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+  }
+
+  &__icon-dots {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: $color-grey-dark-2;
+  }
+
+  &__icon-globe {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: $color-grey-dark-2;
+  }
+
+  &__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: $color-grey-dark-2;
+  }
+
+  &__author-post-content {
+    padding: 1rem 1.5rem;
+  }
+
+  &__author-post-message {
+    line-height: 1.25;
+    font-size: 1.5rem;
+    
+  }
+
+  &__reactions {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
+
+  &__reactions-list {
+    display: flex;
+  }
+
+  &__reactions-item {
+
+  }
+
+  &__reactions-people {
+    margin-right: auto;
+    margin-left: 1rem;
+  }
+
+  &__reactions-link {
+    font-size: 1.5rem;
+    color: $color-primary-blue;
+
+  }
+
+  
+
+}

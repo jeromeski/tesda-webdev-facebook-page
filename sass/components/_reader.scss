@@ -1,0 +1,47 @@
+/* READER
+========================*/
+
+.reader {
+
+  &__action-container {
+    padding: 1.5rem;
+  }
+
+  &__action-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__action-item {
+
+  }
+
+  &__action-btn{
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  &__comment {
+
+  }
+
+  &__comment-list {
+
+  }
+
+  &__comment-item {
+
+  }
+
+  &__comment-avatar {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &__comment-message {
+
+  }
+}
