@@ -15,7 +15,7 @@
     & a {
       font-size: 1.65rem;
       font-weight: 500;
-      color: $color-primary-blue;
+      color: $color-grey-dark-2;
     }
   }
   &__icon {
@@ -23,6 +23,10 @@
     width: 2.75rem;
     margin-right: .75rem;
     margin-left: .5rem;
+  }
+
+  &__item-active {
+    box-shadow: $shadow;
   }
 
   &__item-active div {
@@ -33,7 +37,7 @@
   &__item-active div a {
     font-size: 1.5rem;
       font-weight: 600;
-      color: $color-primary-blue;
+      color: $color-grey-dark-2;
   }
 
   &__item-active a {

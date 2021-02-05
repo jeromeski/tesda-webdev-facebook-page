@@ -1,0 +1,78 @@
+/* STORIES
+========================*/
+
+.stories {
+  color: $color-grey-dark-2;
+  background-color: white;
+  box-shadow: $shadow;
+  border-radius: 5px;
+  margin-top: 2rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+  }
+
+  &__heading {
+    color: inherit;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__link {
+
+    font-size: 1.5rem;
+  }
+
+  
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  &__item {
+    
+  }
+
+  &__item-container {
+    position: relative;
+  }
+
+  &__photo-1 {
+    border-radius: 10px;
+  }
+
+  &__photo-2 {
+    box-sizing: content-box;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50px;
+    border: .45rem solid $color-primary-blue;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+
+  &__icon {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    fill: white;
+    top: 3%;
+    left: 2%;
+  }
+
+  &__caption {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 3%;
+    left: 6%;
+    line-height: 1.25;
+  }
+}

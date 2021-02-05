@@ -3,7 +3,7 @@
 
 .explore {
   & p {
-    color: $color-primary-blue;
+    color: $color-grey-dark-2;
     font-weight: bold;
     font-size: 1.60rem;
   }
@@ -20,7 +20,7 @@
     & a {
       font-size: 1.65rem;
       font-weight: 500;
-      color: $color-primary-blue;
+      color: $color-grey-dark-2;
     }
   }
   &__icon {
@@ -35,6 +35,6 @@
     width: 2.25rem;
     margin-right: .5rem;
     margin-left: .5rem;
-    fill: $color-primary-blue;
+    fill: $color-grey-dark-2;
   }
 }

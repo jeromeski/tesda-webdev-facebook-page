@@ -2,23 +2,27 @@
 ========================*/
 
 .post {
-  background-color: white;
   &__create {
     margin-top: 2rem;
-    margin-right: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: $shadow;
+
   }
-  &__create-heading p {
+  &__create-header p {
     font-size: 1.5rem;
     color: $color-grey-dark-2;
-    padding: .75rem 1.5rem;
-    background-color: lighten($color-primary-white, 6%);
+    padding: 1rem 1.5rem;
+    background-color: lighten($color-primary-white, 3%);
     font-weight: 700;
     border-bottom: $line2;
+    border-radius: 5px;
   }
   &__create-user {
     padding: 1.5rem;
     background-color: white;
     display: flex;
+    border-radius: 5px;
 
     & input {
       border: none;
@@ -37,6 +41,7 @@
     background-color: white;
     padding: 1.5rem;
     display: flex;
+    border-radius: 5px;
   }
 
   &__react-item {

@@ -61,7 +61,7 @@
                 </svg>
               </li>
               <li class="user-nav__item user-nav__dropdown">
-                <svg class="user-nav__icon">
+                <svg class="user-nav__icon" id="triangle">
                   <use xlink:href="img/sprites.svg#icon-triangle-down"></use>
                 </svg>
                 <ul class="user-nav__dropdown-list">
@@ -236,13 +236,14 @@
         <div class="col-mid">
           <div class="posts">
             <div class="post__create">
-              <div class="post__create-heading "> <p>Create Post</p></div>
+              <div class="post__create-header"> <p>Create Post</p></div>
               <div class="post__create-user">
                 <img class="post__avatar " src="https://randomuser.me/api/portraits/lego/5.jpg "/>
                 <input type="text " placeholder="What's on your mind, Jeromeski?"></input>
               </div>
+              <div class="post__create-react-container">
               <div class="hr2"></div>
-              <div class="post__react-list">
+              <div class="post__react-list"> 
                 <div class="post__react-item"> 
                   <button class="post__button" >
                     <svg class="post__icon">
@@ -274,6 +275,48 @@
                     </svg>
                   </button>
                 </div>
+              </div>
+              </div>
+            </div>
+            <div class="stories mb-2">
+              <div class="stories__container">
+                <div class="stories__header"> 
+                  <p class="stories__heading">Stories</p> 
+                  <a class="stories__link" href="">See All</a> 
+                </div>
+                <ul class="stories__list">
+                    <li class="stories__item">
+                      <div class="stories__item-container"> 
+                        <img class="stories__photo-1" src="https://picsum.photos/135/235?random=1"/>
+                        <svg class="stories__icon">
+                          <use xlink:href="img/sprites.svg#icon-circle-with-plus"></use>
+                        </svg> 
+                        <p class="stories__caption">Add to story</p>
+                      </div>
+                    </li>
+                    <li class="stories_item">
+                      <div class="stories__item-container"> 
+                        <img class="stories__photo-1" src="https://picsum.photos/135/235?random=2"/>
+                        <img class="stories__photo-2" src="https://randomuser.me/api/portraits/women/70.jpg"/>
+                        <p class="stories__caption">Riza Mae <br>Tan</p> 
+                      </div>
+                    </li>
+                    <li class="stories_item">
+                      <div class="stories__item-container"> 
+                        <img class="stories__photo-1" src="https://picsum.photos/135/235?random=3"/>
+                        <img class="stories__photo-2" src="https://randomuser.me/api/portraits/men/90.jpg"/>
+                        <p class="stories__caption">James <br> Hontiveros</p>  
+                        
+                      </div>
+                    </li>
+                    <li class="stories_item">
+                      <div class="stories__item-container"> 
+                        <img class="stories__photo-1" src="https://picsum.photos/135/235?random=4"/>
+                        <img class="stories__photo-2" src="https://randomuser.me/api/portraits/women/18.jpg"/>
+                        <p class="stories__caption">Jennifer <br> Reyes</p>  
+                      </div>
+                    </li>
+                </ul>
               </div>
             </div>
           </div>
