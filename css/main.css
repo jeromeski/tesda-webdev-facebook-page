@@ -760,7 +760,7 @@ a {
 .reader__comment-avatar {
   height: 4rem;
   width: 4rem;
-  margin-right: 1rem;
+  margin-right: .5rem;
   border-radius: 50px; }
 .reader__comment-message {
   font-size: 1.5rem;
