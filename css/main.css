@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  font-family: Tahoma, 'Helvetica Neue', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   color: #777777;
@@ -98,7 +98,7 @@ a {
   text-decoration: none; }
 
 p {
-  letter-spacing: 1.10px; }
+  letter-spacing: .75px; }
 
 /* TYPOGRAPHY
 ========================*/
@@ -352,7 +352,7 @@ p {
       -ms-flex-align: center;
           align-items: center; }
   .features__item a {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     font-weight: 500;
     color: #434343; }
 .features__icon {
@@ -423,7 +423,7 @@ p {
       -ms-flex-align: center;
           align-items: center; }
   .features__item a {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     font-weight: 500;
     color: #434343; }
 .features__icon {
@@ -470,7 +470,7 @@ p {
 .shortcuts p {
   color: #434343;
   font-weight: bold;
-  font-size: 1.60rem; }
+  font-size: 1.45rem; }
 .shortcuts__list > * {
   margin-bottom: .75rem; }
 .shortcuts__item {
@@ -481,7 +481,7 @@ p {
       -ms-flex-align: center;
           align-items: center; }
   .shortcuts__item a {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     font-weight: 500;
     color: #434343; }
 .shortcuts__icon {
@@ -501,7 +501,7 @@ p {
 .explore p {
   color: #434343;
   font-weight: bold;
-  font-size: 1.60rem; }
+  font-size: 1.45rem; }
 .explore__list > * {
   margin-bottom: .75rem; }
 .explore__item {
@@ -512,7 +512,7 @@ p {
       -ms-flex-align: center;
           align-items: center; }
   .explore__item a {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     font-weight: 500;
     color: #434343; }
 .explore__icon {
@@ -584,6 +584,7 @@ p {
   font-weight: 700;
   color: #434343;
   border-radius: 5rem;
+  outline: none;
   cursor: pointer; }
 .post__icon {
   height: 2.65rem;
@@ -610,7 +611,7 @@ p {
     padding: 1rem 1.5rem; }
   .stories__heading {
     color: inherit;
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     font-weight: 700; }
   .stories__link {
     font-size: 1.5rem; }
@@ -723,7 +724,7 @@ p {
   padding: 1rem 1.5rem; }
 .status__author-post-message {
   line-height: 1.5;
-  font-size: 1.55rem; }
+  font-size: 1.40rem; }
 .status__reactions {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -792,7 +793,7 @@ p {
   margin-right: .5rem;
   border-radius: 50px; }
 .reader__comment-message {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.25;
   padding: .5rem 1.5rem;
   background-color: #f2f3f5;
