@@ -249,7 +249,7 @@ a {
         -ms-flex-align: center;
             align-items: center; }
     .user-nav__user > *:nth-child(2) {
-      margin-top: 5px; }
+      margin-top: 4px; }
   .user-nav__avatar {
     height: 3rem;
     width: 3rem;
