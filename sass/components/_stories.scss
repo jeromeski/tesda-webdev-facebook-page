@@ -58,13 +58,14 @@
   }
 
   &__icon {
+    @include drop-shadow;
     position: absolute;
     height: 5rem;
     width: 5rem;
-    fill: white;
+    fill: $color-primary-white-light;
     top: 3%;
     left: 2%;
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+    
   }
 
   &__caption {
