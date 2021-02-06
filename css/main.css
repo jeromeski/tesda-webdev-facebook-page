@@ -248,6 +248,8 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    .user-nav__user > *:nth-child(2) {
+      margin-top: 5px; }
   .user-nav__avatar {
     height: 3rem;
     width: 3rem;
@@ -646,15 +648,15 @@ a {
     position: absolute;
     top: 5%;
     left: 5%; }
-  .stories__icon {
+  .stories__button {
     -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.6));
             filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.6));
     position: absolute;
     height: 5rem;
     width: 5rem;
-    fill: white;
     top: 3%;
-    left: 2%; }
+    left: 2%;
+    border-radius: 50px; }
   .stories__caption {
     font-size: 1.5rem;
     color: white;

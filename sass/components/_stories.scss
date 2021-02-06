@@ -57,14 +57,14 @@
     left: 5%;
   }
 
-  &__icon {
+  &__button {
     @include drop-shadow;
     position: absolute;
     height: 5rem;
     width: 5rem;
-    fill: $color-primary-white-light;
     top: 3%;
     left: 2%;
+    border-radius: 50px;
     
   }
 
