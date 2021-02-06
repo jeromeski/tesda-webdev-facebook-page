@@ -37,7 +37,7 @@
 
       &::-webkit-input-placeholder {
         color: silver;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 1.5rem;
       }
     }
@@ -61,6 +61,12 @@
     &:not(:last-of-type) {
       margin-right: 1rem;
     }
+
+    &:last-child button svg {
+      height: 2rem;
+      width: 2rem;
+      padding: 3px;
+    }
   }
 
   &__button {
@@ -75,10 +81,12 @@
     outline: none;
     cursor: pointer;
   }
+
   &__icon {
     height: 2.65rem;
     width: 2.65rem;
     margin-right: .5rem;
     fill: $color-grey-dark-2;
   }
+
 }

@@ -555,7 +555,7 @@ a {
     outline: none; }
     .post__create-user input::-webkit-input-placeholder {
       color: silver;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 1.5rem; }
 .post__avatar {
   height: 4.5rem;
@@ -574,6 +574,10 @@ a {
           box-sizing: content-box; }
   .post__react-item:not(:last-of-type) {
     margin-right: 1rem; }
+  .post__react-item:last-child button svg {
+    height: 2rem;
+    width: 2rem;
+    padding: 3px; }
 .post__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -778,8 +782,8 @@ a {
           align-items: center; }
   .reader__action-btn svg {
     margin-right: .5rem;
-    height: 2.5rem;
-    width: 2.5rem; }
+    height: 2.25rem;
+    width: 2.25rem; }
 .reader__comment {
   padding: 0 0 2rem 0; }
 .reader__comment-item {
