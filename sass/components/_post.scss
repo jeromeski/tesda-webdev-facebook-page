@@ -9,6 +9,13 @@
     box-shadow: $shadow;
 
   }
+
+  &__create-header {
+    border-bottom: solid 2px 
+    $color-primary-white;
+    border-radius: 5px;
+  }
+
   &__create-header p {
     font-size: 1.5rem;
     color: $color-grey-dark-2;
@@ -28,6 +35,12 @@
       border: none;
       width: 100%;
       outline: none;
+
+      &::-webkit-input-placeholder {
+        color: silver;
+        font-weight: 300;
+        font-size: 1.5rem;
+      }
     }
   }
   &__avatar {

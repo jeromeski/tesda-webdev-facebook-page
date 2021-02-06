@@ -72,23 +72,23 @@
   }
 
   &__languages {
-    line-height: 1.40;
+    line-height: 1.30;
 
     & > *:nth-child(1){
       color: $color-grey-light-2;
       font-weight: 600;
-      font-size: 1.45rem;
+      font-size: 1.35rem;
     }
 
     & > *:not(:first-child) {
       color: $color-primary-blue;
-      font-size: 1.45rem;
+      font-size: 1.35rem;
     }
   }
 
   &__button {
     padding:  0.5rem 1rem;
-    align-self: center;
+    align-self: flex-start;
     display: flex;
     align-items: center;
     border: none;
@@ -103,12 +103,17 @@
 }
 
 .terms {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 0 1.75rem;
-  line-height: 1.5;
+  line-height: 1.35;
+
+  & > *:not(:last-child) {
+    color: $color-grey-dark-1;
+  }
 
   & > * {
     cursor: pointer;
+    
   }
   & span {
     color: $color-grey-dark-2;
