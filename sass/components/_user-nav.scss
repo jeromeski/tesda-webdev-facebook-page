@@ -6,6 +6,11 @@
   display: flex;
   align-items: center;
 
+  
+  @media only screen and (max-width: $bp-small) {
+    margin-left: -5rem;
+  }
+
   &__list {
     display: flex;
     height: 100%;
@@ -164,4 +169,8 @@
       font-size: 1.25rem;
     }
   }
+}
+
+.user-nav__dropdown-list {
+  z-index: 100;
 }

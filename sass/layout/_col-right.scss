@@ -3,6 +3,11 @@
 
 .col-right {
   flex: 1;
+
+  @media only screen and (max-width: $bp-medium) {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 .right {

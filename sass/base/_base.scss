@@ -18,6 +18,9 @@ html {
   // @media only screen and (max-width: $bp-large) {
   //   font-size: 50%;
   // }
+  @media only screen and (max-width: $bp-small) {
+    font-size: 50%;
+  }
 }
 
 /* Remove default padding */
@@ -109,4 +112,10 @@ img {
 a {
   text-decoration: none;
 }
+
+video, img {
+  width: 100%;
+  height: auto;
+}
+
 

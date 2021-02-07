@@ -2,5 +2,14 @@
 ========================*/
 
 .col-mid {
-  flex: 0 0 50%;
+  flex: 0 1 50%;
+
+  @media only screen and (max-width: $bp-medium) {
+    flex: 1;
+    margin: 0 5rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 0;
+  }
 }

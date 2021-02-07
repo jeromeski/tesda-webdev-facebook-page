@@ -7,6 +7,13 @@
   box-shadow: $shadow;
   border-radius: 5px;
   margin-top: 2rem;
+  position: relative;
+  z-index: 5;
+
+  @media only screen and (max-width: $bp-small) {
+    visibility: hidden;
+    display: none;
+  }
 
   &__header {
     display: flex;
@@ -40,6 +47,7 @@
 
   &__item-container {
     position: relative;
+    z-index: -1;
   }
 
   &__photo-1 {
