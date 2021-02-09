@@ -3,3 +3,10 @@
 @mixin drop-shadow {
   filter: drop-shadow( 0px 0px 3px rgba(0, 0, 0, .6));
 }
+
+@mixin d-none-sm {
+  @media only screen and (max-width: $bp-small) {
+    display: none;
+    visibility: none;
+  }
+}

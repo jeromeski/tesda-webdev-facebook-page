@@ -13,6 +13,7 @@
   &__create-header {
     border-bottom: solid 2px  $color-primary-white;
     border-radius: 5px;
+    flex: 0 1;
   }
 
   &__create-header p {
@@ -67,6 +68,10 @@
       width: 2rem;
       padding: 3px;
     }
+  }
+
+  &__create-react-container {
+    @include d-none-sm;
   }
 
   &__button {
